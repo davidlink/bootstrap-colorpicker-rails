@@ -93,6 +93,7 @@
 }
 
 .colorpicker-hue {
+  position: relative;
   background-image: url(hue.png);
 }
 .colorpicker-alpha {
