@@ -32,6 +32,32 @@
     }
   }
 }
+.colorpicker-saturation i
+{
+  -moz-border-radius:5px;
+  -webkit-border-radius:5px;
+  border:1px solid #000;
+  border-radius:5px;
+  display:block;
+  height:5px;
+  left:0;
+  margin:-4px 0 0 -4px;
+  position:absolute;
+  top:0;
+  width:5px;
+}
+
+.colorpicker-saturation i b
+{
+  -moz-border-radius:5px;
+  -webkit-border-radius:5px;
+  border:1px solid #fff;
+  border-radius:5px;
+  display:block;
+  height:5px;
+  width:5px;
+}
+
 .colorpicker-hue,
 .colorpicker-alpha {
   width: 15px;
@@ -52,6 +78,20 @@
     margin-top: -1px;
   }
 }
+
+.colorpicker-hue i,.colorpicker-alpha i
+{
+  background:#000;
+  border-top:1px solid #fff;
+  display:block;
+  height:1px;
+  left:0;
+  margin-top:-1px;
+  position:absolute;
+  top:0;
+  width:100%;
+}
+
 .colorpicker-hue {
   background-image: url(hue.png);
 }
