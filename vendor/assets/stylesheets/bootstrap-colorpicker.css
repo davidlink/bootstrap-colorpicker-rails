@@ -99,7 +99,7 @@
   display:none;
 }
 .colorpicker {
-  .clearfix();
+  display: inline-block;
   top: 0;
   left: 0;
   padding: 4px;
